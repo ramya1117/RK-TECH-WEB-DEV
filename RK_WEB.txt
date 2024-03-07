@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cake Shop Landing Page</title>
+  <link rel="stylesheet" href="cake.css">
+</head>
+<body>
+  <nav>
+    <h1>RK CAKE SHOP</h1>
+    <ul>
+      <li><a>HOME</a></li>
+      <li><a>ABOUT</a></li>
+      <li><a>ORDER'S</a></li>
+      <li><a>VARIETY</a></li>
+      <li><a>CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="text">
+      <h1>CAKE'S.</h1>
+      <p style="color:deeppink;">"Where Every Bite Unfolds Joyful Delight,<br>
+          Savor the Sweetness, One Slice at a Time."
+      </p>
+      <button>View More</button>
+    </div>
+    <img src="chocolate-cake.jpg" alt="">
+  </div>
+
+  <section class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Delicious Cakes is dedicated to providing the finest cakes made from the freshest ingredients. With a passion for baking and a commitment to quality, we create cakes that are not only visually stunning but also irresistibly delicious.</p>
+    </div>
+  </section>
+
+  <section class="orders">
+    <div class="container">
+      <h2>Place Your Order</h2>
+      <p>Order your favorite cakes online and get them delivered to your doorstep!</p>
+      <a href="#" class="btn">Order Now</a>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="contact-info">
+          <h2>Contact Us</h2>
+          <p>123 Main Street, City, Country</p>
+          <p>Email: info@deliciouscakes.com</p>
+          <p>Phone: +123-456-7890</p>
+        </div>
+        <div class="social-media">
+          <h2>Connect With Us</h2>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <p>&copy; 2024 Delicious Cakes. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
