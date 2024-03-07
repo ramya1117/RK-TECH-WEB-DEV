@@ -1,0 +1,165 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+ 
+}
+
+.container h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+
+}
+span{
+    color: orange;
+}
+span:hover{
+    color: limegreen;
+}
+
+
+.port p{
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    line-height: 100px;
+    text-align-last: none;
+
+}
+
+.port p:hover{
+    color: darkviolet;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    float: left;
+}
+
+nav ul {
+    font-size: 20px;
+    background-color: lightyellow;
+    position: not fixed;
+    bottom: 0;
+    width: 100%;
+}
+nav ul li {
+    display: inline - block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.section {
+    margin-left: 8%;
+    margin-top: 15%;
+    
+
+}
+
+.section h2 {
+    margin-bottom: 20px;
+}
+
+.section h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+    
+}
+span{
+    color: orange;
+}
+
+.section p{
+    color: #555;
+    line-height: 22px;
+}
+
+.section a{
+    background: #000;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px ;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s,left 1s;
+}
+.images:hover .shape{
+    bottom: 40px;
+}
+.images:hover .girl{
+    left: 45%;
+}
+
+
+.project {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+.project p {
+    margin-bottom: 5px;
+    color: #555;
+}
+.project br {
+    display: none;
+}
+footer {
+    background-color: lightgray;
+    color: white;
+    padding: 20px 0;
+}
